@@ -1,3 +1,5 @@
+//ascii video code made by patt vira https://www.pattvira.com/
+
 let ps = [];
 let bodyPose;
 let video; vidw = 64; let vidh = 48; let scl = 10;
