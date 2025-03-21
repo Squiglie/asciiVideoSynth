@@ -72,7 +72,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255);
   // Load the pixels[] for the scratch image into memory
   video.loadPixels();
   textVideo.loadPixels();
@@ -217,7 +217,7 @@ function asciiVid(video){
       let x = i*w + w/2;
       let y = j*h + h/2;
       let t = asciiChar.charAt(tIndex);
-      fill(0);
+      fill(255);
       textSize(w);
       textAlign(CENTER, CENTER);
       text(t, x, y);
